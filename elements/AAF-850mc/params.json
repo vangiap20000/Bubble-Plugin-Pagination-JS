@@ -1,0 +1,196 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 30,
+        "width": 200
+    },
+    "display": "Pagination JS",
+    "events": {
+        "AAi": {
+            "caption": "Change",
+            "name": "change"
+        }
+    },
+    "fields": {
+        "AAG": {
+            "caption": "Primary bg color",
+            "default_val": "rgba(236,151,31,1)",
+            "editor": "Color",
+            "in_style": false,
+            "name": "primary_bg_color",
+            "optional": false,
+            "rank": 0
+        },
+        "AAH": {
+            "caption": "Primary text color",
+            "default_val": "rgba(236,151,31,1)",
+            "editor": "Color",
+            "in_style": false,
+            "name": "primary_text_color",
+            "rank": 3
+        },
+        "AAI": {
+            "caption": "Primary border color",
+            "default_val": "rgba(236,151,31,1)",
+            "editor": "Color",
+            "name": "primary_border_color",
+            "rank": 2
+        },
+        "AAJ": {
+            "caption": "Primary bg hover color",
+            "default_val": "rgba(253,245,233,1)",
+            "editor": "Color",
+            "name": "primary_bg_hover_color",
+            "rank": 1
+        },
+        "AAL": {
+            "caption": "Border radius",
+            "default_val": "3px",
+            "editor": "StaticText",
+            "name": "border_radius",
+            "rank": 5
+        },
+        "AAM": {
+            "caption": "Font size",
+            "default_val": "14px",
+            "editor": "StaticText",
+            "name": "font_size",
+            "rank": 6
+        },
+        "AAN": {
+            "caption": "Separation",
+            "default_val": "3px",
+            "doc": "Spacing  between items",
+            "editor": "StaticText",
+            "name": "separation",
+            "rank": 7
+        },
+        "AAO": {
+            "caption": "Num total items",
+            "editor": "DynamicValue",
+            "in_style": false,
+            "name": "num_total_items",
+            "optional": false,
+            "rank": 8,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "Num per page",
+            "editor": "DynamicValue",
+            "in_style": false,
+            "name": "num_per_page",
+            "optional": false,
+            "rank": 9,
+            "value": "number"
+        },
+        "AAQ": {
+            "caption": "Show previous control",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_previous_control",
+            "rank": 10
+        },
+        "AAR": {
+            "caption": "Show next control",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_next_control",
+            "rank": 11
+        },
+        "AAS": {
+            "caption": "Page range",
+            "default_val": 1,
+            "doc": " Defines a range of pages that should be display around current page. For example, if current page number is 6 and pageRange is set to 2, then pagination bar will be displayed as like this '1 ... 4",
+            "editor": "StaticNumber",
+            "name": "page_range",
+            "rank": 12
+        },
+        "AAT": {
+            "caption": "Auto hide previous",
+            "default_val": false,
+            "doc": "To hide the previous button when current page number is the first.",
+            "editor": "Checkbox",
+            "name": "auto_hide_previous",
+            "rank": 13
+        },
+        "AAU": {
+            "caption": "Auto hide next",
+            "default_val": false,
+            "doc": "To hide the next button when current page number is the last.",
+            "editor": "Checkbox",
+            "name": "auto_hide_next",
+            "rank": 14
+        },
+        "AAV": {
+            "caption": "Prev rext",
+            "default_val": "&laquo;",
+            "editor": "StaticText",
+            "name": "prev_rext",
+            "rank": 15
+        },
+        "AAW": {
+            "caption": "Next text",
+            "default_val": "&raquo;",
+            "editor": "StaticText",
+            "name": "next_text",
+            "rank": 16
+        },
+        "AAX": {
+            "caption": "Ellipsis text",
+            "default_val": "...",
+            "editor": "StaticText",
+            "name": "ellipsis_text",
+            "rank": 17
+        },
+        "AAZ": {
+            "caption": "Show page numbers",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_page_numbers",
+            "rank": 18
+        },
+        "AAa": {
+            "caption": "Primary text hover color",
+            "default_val": "rgba(255,255,255,1)",
+            "editor": "Color",
+            "name": "primary_text_active_color",
+            "rank": 4
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-android-apps",
+    "property_applications": {
+        "Background": false,
+        "Border": false,
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAf": {
+            "caption": "Current page",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n}"
+            },
+            "name": "current_page",
+            "value": "number"
+        },
+        "AAg": {
+            "caption": "Total record",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "total_record",
+            "value": "number"
+        },
+        "AAl": {
+            "caption": "offset",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "offset",
+            "value": "number"
+        }
+    }
+}

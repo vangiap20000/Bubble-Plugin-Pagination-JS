@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "blog",
+        "1": "data (things)",
+        "2": "customer support",
+        "3": "social network",
+        "4": "technical"
+    },
+    "demo_page": "https://learnbubble-53916.bubbleapps.io/version-test/test_pagination",
+    "description": " Pagination JS Plugin\n\nThe  plugin simplifies the process of integrating \"pagination js\" library\n\nAuthor of library: https://pagination.js.org/\n\nDescription:\n\nEnhance your data management and navigation capabilities with the Pagination JS plugin for Bubble! This plugin is specifically designed to help you easily add pagination features to your web application, improving user experience and performance for long data lists.\n\nKey Features:\n\n- Easy Integration: Install and configure the plugin in just a few simple steps. Integrate seamlessly into your app without the need for complex coding.\n\n- Flexible Customization: Supports a range of configuration options so you can adjust the pagination's appearance and functionality to suit your specific needs. Customize the number of items per page, display style, and navigation options easily.\n\n- High Performance:  Efficient and quick handling of pagination, reducing load on large data tables and enhancing page load times.\n\n-  Compatible Expansion:  Works well with other plugins and components on Bubble, allowing you to build complex applications without compatibility issues.\n\n- User-Friendly Interface:  Intuitive and easy-to-use interface for both users and developers. Pagination functions are designed for simplicity and clarity.\n\n-  Technical Support:  Dedicated support team available to assist you with installation, configuration, and troubleshooting.\n\nHow to Use:\n\n1. Install the Plugin:  Access the Bubble plugin store and add Pagination JS to your project.\n2.  Configure: Open the plugin settings and adjust options according to your needs, including the number of items per page and navigation style.\n3. Apply: Drag and drop the pagination component onto your page, connect it with your data, and customize the appearance to fit your design.\n\nBenefits:\n\n- Enhance user experience : with smooth pagination features.\n- Save development time  with an easy-to-integrate and customizable solution.\n-  Improve application performance** by efficiently managing large amounts of data.\n\nExplore the Pagination JS plugin now and transform your data into a fantastic user experience!\n",
+    "image": "//meta-q.cdn.bubble.io/f1723610047810x830182994935073700/intro-to-pagination-in-ui-1705345441654-2x.svg",
+    "license": "open_source",
+    "link": "giapho.06082000@gmail.com",
+    "name": "Pagination JS"
+}

@@ -1,0 +1,16 @@
+{
+    "assets": {
+        "AAd": {
+            "name": "css",
+            "url": "//meta-q.cdn.bubble.io/f1723626697928x385660223026664800/pagination_G.min.css"
+        },
+        "AAe": {
+            "name": "js",
+            "url": "//meta-q.cdn.bubble.io/f1723626710612x666749708650208800/pagination_G.min.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    }
+}
